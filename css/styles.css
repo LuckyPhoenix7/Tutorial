@@ -1,6 +1,30 @@
-body {
-  background-color: lightcoral;
+:root {
+  /* Fonts */
+  --primary-font: 'Arial', sans-serif;
+
+  /* Colors */
+  --color: #555555 #fff;
+  --main-text-color: #7d6d6d;
+  --light-color: #fff;
+  --danger-color: #a93232;
+
+  /* Others */
 }
+
+/* Base styles */
+
+body {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* reset start */
 
 section {
   background-color: tomato;
@@ -11,5 +35,70 @@ section {
 }
 
 .link {
-  color: red;
+  color: inherit;
+  list-style: none;
+}
+
+/* COPY */
+
+.main-title {
+  font-size: 56px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: normal;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: none;
+}
+.section-title {
+  font-size: 36px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: normal;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.subtitle {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.deac {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: none;
+}
+.button {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  text-transform: none;
+}
+.small-text {
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  text-transform: none;
 }
